@@ -1,0 +1,140 @@
+<!-- - Create a layout according to the design shown below.
+
+![Creating lists Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/lists/ex-1.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating List | Assignment-I</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/508c3a88fa.js" crossorigin="anonymous"></script>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+            <nav>
+                <ul class=" container flex nav-text padding">
+                    <li>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Faqs</a>
+                        <a href="#">Program</a>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class=" flex card-container ">
+                <ol class="menu card card-1">
+                    <li>Home</li>
+                    <li>Page</li>
+                    <li>Services</li>
+                    <li>About us</li>
+                    <li >Protfolio</li>
+                    <ol start="20">
+                    <li>Pricing</li>
+                    <li>News</li>
+                    <li>Testimonia</li>
+                    <li>Contact us</li>
+                    </ol>
+                </ol>
+                <ul class="card menu">
+                    <li>Home</li>
+                    <li>Menu
+                        <ol class="list">
+                            <li>Menu 1
+                                <ol class="list-1 padding-left">
+                                    <li>Sub Menu 1</li>
+                                    <li>Sub Menu 2</li>
+                                </ol>
+                            </li>
+                            <li>Menu 2</li>
+                            <li>Menu 3</li>
+                            <li>Menu 4</li>
+                            <li>Menu 5</li>
+                        </ol>
+                    </li>
+                    <li>How We Work</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </ul>
+                <ol class="ol-1 card menu card-2">
+                    <li>Home</li>
+                    <li>Page</li>
+                    <li>Services</li>
+                    <li>About us</li>
+                    <li >Protfolio</li>
+                    <li>Pricing</li>
+                    <li>News</li>
+                    <li>Testimonia</li>
+                    <li>Contact us</li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <article class="container paragraph-text">
+                <h1>
+                    What is Lorem Ipsum?
+                </h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis consequatur rerum ullam velit quos praesentium.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis consequatur rerum ullam velit quos praesentium.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis consequatur rerum ullam velit quos praesentium.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis consequatur rerum ullam velit quos praesentium.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis consequatur rerum ullam velit quos praesentium.
+                    Ipsum.
+                </p>
+                <h2>
+                    Why do we use it?
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit placeat perspiciatis minima nemo optio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit placeat perspiciatis minima nemo optio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit placeat perspiciatis minima nemo optio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit placeat perspiciatis minima nemo optio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit placeat perspiciatis minima nemo optio?
+                    purpose(injected humour and like).
+                </p>
+                <h2>
+                    Lorem Ipsum
+                </h2>
+                <h2>
+                    Dummy Text
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eius itaque repellat minima?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eius itaque repellat minima?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eius itaque repellat minima?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eius itaque repellat minima?
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav>
+            <ul class=" container flex nav-text padding">
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Faqs</a>
+                    <a href="#">Program</a>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav> 
+    </footer>
+</body>
+</html>

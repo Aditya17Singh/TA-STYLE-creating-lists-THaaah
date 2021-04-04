@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+	background-color: #D4CEA7;
+	padding-bottom: 30px;
+}
+/* General */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding{
+	padding: 25px;
+}
+/* Header */
+.header{
+	background-color: #F96115;
+}
+.nav-text{
+	list-style-type: none;
+}
+.nav-text a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	margin-right: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+/* hero section */
+ol{
+	list-style: outside decimal;
+}
+ul{
+	list-style: outside  disc;
+}
+.list-1{
+	list-style: inside square;
+}
+.list{
+	list-style: inside decimal;
+}
+.ol-1{
+	list-style-type: none;
+	list-style-image: url(../media/tick-image-1.jpeg);
+}
+.card-container{
+	padding: 60px 0;
+}
+.card{
+	background-color: #005979;
+	padding: 36px;
+	width: 23%;
+	box-shadow: 5px 3px 18px 2px rgba(0,0,0);
+}
+.menu li{
+	color: #D0CBA6;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.card-1{
+	padding-bottom: 100px;
+}
+.card-1 li{
+	line-height: 1.6;
+	margin-left: 18px;
+}
+.card-2 li{
+	line-height: 2;
+	margin-left: 18px;
+}
+.padding-left{
+	padding-left: 20px;
+}
+/* another section */
+.paragraph-text p{
+	margin: 20px 0;
+	color: #6B6751;
+	font-weight: 500;
+	line-height: 1.4;
+	padding-left: 40px;
+	font-weight: 600;
+}
+.paragraph-text h1{
+	font-size: 29px;
+	font-weight: 600;
+}
+.paragraph-text h2{
+	font-size: 29px;
+	font-weight: 600;
+}
+/* footer */
+.footer{
+	background-color: #252C22;
+	padding: 30px;
+}
